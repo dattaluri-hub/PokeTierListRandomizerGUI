@@ -345,11 +345,6 @@ namespace PokeTierListRandomizerGUI
 
         private void Countdown_Tick(object sender, EventArgs e)
         {
-            if (CountdownValue == 0)
-            {
-                Countdown.Stop();
-                return;
-            }
 
             CountdownValue = CountdownValue - 1;
             Timer.Text = CountdownValue.ToString();
