@@ -15,5 +15,8 @@
         public string? VarietyName { get; set; }
         public string? VarietyImageUrl { get; set; }
         public string? VarietyCryUrl { get; set; } 
+        public string? VarietyType { get; set; }
+        public string? VarietyHeight { get; set; }
+        public string? VarietyWeight { get; set; }
     }
 }
